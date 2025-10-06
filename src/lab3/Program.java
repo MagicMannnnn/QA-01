@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Program {
     static Utils utils = new Utils();
 
-
     public static void main(String[] args) {
         theLunchQueue();
     }
@@ -16,4 +15,5 @@ public class Program {
         int sprouts = utils.getInt("how many sprouts would you like?");
         System.out.printf("Your meal is %s with %d potatoes and %d sprouts.", mainDish, potatoes, sprouts);
     }
+
 }
